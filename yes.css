@@ -1,0 +1,432 @@
+
+  /*****
+					<img src="day4/img_002.png" class=" imgbord" />
+  *****/
+
+/**************
+	HEADER
+**************/
+
+
+/*body {
+	background: url(day4/img_001.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+} */
+
+html {
+  background: url(day4/img_001.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+
+
+
+input {
+  display: n;
+}
+
+.radio {
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+	margin: 10px 10px 0 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Lato';
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	font-weight: 900;
+	cursor: pointer;
+	border: 2px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+  transition: background-color .4s;
+}*/
+
+.radio:hover {
+  background-color: #727272;
+}
+
+input:checked ~ .radio {
+	color: #999;
+	background-color: #000;
+  opacity: 1;
+}
+
+.img-box {
+  width: 633px;
+  height: 200px;
+  margin: 2% auto;
+  position:;
+  overflow: ;
+  margin-bottom: 19px;
+  border: white 3px solid;
+}
+
+#one, #two, #three {
+  opacity: 0;
+  -webkit-transform: translate(0,30px);
+  transition-property: -webkit-transform, opacity;
+  transition-duration: .5s;
+  position: absolute;
+  width: 631px;
+  height: 200px;
+}
+
+#img-1:checked ~ .img-box #one,
+#img-2:checked ~ .img-box #two,
+#img-3:checked ~ .img-box #three {
+  opacity: 1;
+  -webkit-transform: translate(0,0);
+}
+
+#img-1:checked ~ .nav label #dot-1.radio,
+#img-2:checked ~ .nav label #dot-2.radio,
+#img-3:checked ~ .nav label #dot-3.radio {
+  color: #FFF;
+  background-color: red;
+}
+
+.nav {
+      width: 120px;
+    margin: 0 45%;
+    background-color: transparent;}
+
+
+
+
+
+
+
+
+/**************
+	BACKGROUND CONTAINER
+**************/
+
+.wrapper {
+	width: 50%;
+	/*border: red 4px solid;*/
+	margin: 0 30%;
+	background:;
+}
+
+
+
+#head {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	/**margin-left: 50%;*/
+	margin-top: 0.5%;
+}
+
+h5 {
+	display: inline;
+	color: white;
+	/*margin-left: 5%;*/
+
+}
+
+/**************
+	facebook/twitter
+**************/
+
+.headimg {
+	display: inline-block;
+	margin-top: 0;
+	/*margin-left: 1%;*/
+	border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+/**************
+top nav
+**************/
+
+nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 13px;
+	padding-top: 8px;
+
+}
+
+ nav ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+div {
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 0;
+	padding-right: 0;
+
+}
+
+
+
+.border {
+	width: 100%;
+}
+
+ .border li{
+	border-bottom: gray 2px solid;
+	background-color: #b3292e;
+	height: 28px;
+    width: 24.4%;
+
+}
+
+nav li {
+	padding: 9px;
+	margin-left: 9px;
+}
+
+/*************************
+	top section img
+*************************/
+
+
+
+.imgbord {
+	border: 4px white solid;
+	width: 99%;
+	margin-top: 2%
+
+}
+
+section div {
+
+	width: 32.8%;
+	background-color: white;
+	margin-top: 19px;
+}
+
+
+
+.h7 {
+margin: 0 10%;
+color: black;
+font-size: 15px;
+}
+
+section div div{
+
+    width: 181px;
+    margin: auto;
+    margin-left: 7%;
+
+}
+
+.pr {
+	text-align: center;
+}
+
+.button {
+   border: 1px solid #0a3c59;
+   background: #941515;
+   padding: 9px 18px;
+   border-radius: 6px;
+   color: #fcfcfc;
+   font-size: 21px;
+   display: inline-block;
+   text-decoration: none;
+
+
+ }
+
+.button:hover{
+	transform: rotate(90deg);
+   transition: all .5s ease-in-out;
+
+	color: white;
+}
+
+ .button1 {
+ 	margin-top: 10%;
+ 	display: inline-block;
+ 	margin-left: 9%;
+ 	margin-bottom: 10px;
+
+ }
+
+ .section {
+ 	display: inline-block;
+        margin-left: 30%;
+    margin-top: -123px;
+ }
+
+ .midimg {
+ 	width: 205px;
+    height: 150px;
+    border: 3px white solid;
+    vertical-align: top;
+}
+
+.midimg2 {
+ 	border: 3px white solid;
+    width: 205px;
+    height: 300px;
+    margin-bottom: -18px;
+}
+
+.midimg3 {
+	 border: 3px white solid;
+    width: 418px;
+    height: 141px;
+    /* margin-left: 30%; */
+    margin-top: -133px;
+    margin-left: 2px;
+}
+
+/*****************
+Boards skate boards
+*****************/
+
+.boards {
+	width: 49.8%;
+
+    /* border: red 4px solid; */
+    margin: 0 30%;
+    background: white;
+    height: 294px;
+    border: white 3px solid;
+    margin-top: 2%;
+    margin-left: 30.2%;
+
+}
+
+.skate{
+	margin-left: -3px;
+
+}
+
+footer section {
+	width: 23.8%;
+    /* border: red 4px solid; */
+    margin: 0 30%;
+    background: white;
+    height: 393px;
+    border: white 3px solid;
+    margin-top: 2%;
+    margin-left: 30.2%;
+    /* background: green; */
+    /* background: green; */
+
+}
+
+#h7 {
+
+	margin:2%;
+	display: inline-block;
+	padding-top: 11%;
+	font-size: 19px;
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    /* font-weight: 500; */
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 11px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-left: 4px solid gray;
+    transition: all 0.3s;
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 184%;
+    margin-top: 22%;
+    margin-left: -96%;
+    outline: 0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 57%;
+    background: #b3292e;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+    float: right;
+}
+[type="submit"]:hover { background:#999; }
+
+form {
+	max-width: 420px;
+    margin: 50px;
+    margin-left: 49%;
+    margin-top: -5%;
+    margin-right: 2%;
+}
+
+.footimg {
+	opacity: 0.3;
+
+}
+
+.form {
+     height: 393px;
+    width: 342px;
+    float: right;
+    /* float: right; */
+    background: white;
+    margin-top: -31.2%;
+    margin-right: 19.4%;
+}
+}
+
+.annoying {
+
+height: 305px;
+    width: 398px;
+    margin: 0;
+    margin-left: 30%;
+    /* margin-right: -4%; */
+    margin-top: -10%;
+}
