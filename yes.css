@@ -1,19 +1,11 @@
 
-  /*****
-					<img src="day4/img_002.png" class=" imgbord" />
-  *****/
+
+
+
 
 /**************
 	HEADER
 **************/
-
-
-/*body {
-	background: url(day4/img_001.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-
-} */
 
 html {
   background: url(day4/img_001.jpg) no-repeat fixed;
@@ -26,7 +18,9 @@ html {
 
 
 
-
+/**************
+	image slides
+**************/
 
 input {
   display: n;
@@ -49,7 +43,7 @@ input {
 	border-radius: 50%;
 	display: inline-block;
   transition: background-color .4s;
-}*/
+}
 
 .radio:hover {
   background-color: #727272;
@@ -245,6 +239,10 @@ section div div{
 	text-align: center;
 }
 
+
+/**************
+	side button
+**************/
 .button {
    border: 1px solid #0a3c59;
    background: #941515;
@@ -272,6 +270,10 @@ section div div{
  	margin-bottom: 10px;
 
  }
+
+ /**************
+ 	skateboards section
+ **************/
 
  .section {
  	display: inline-block;
@@ -323,6 +325,12 @@ Boards skate boards
 	margin-left: -3px;
 
 }
+
+
+/**************
+	footer
+**************/
+
 
 footer section {
 	width: 23.8%;
