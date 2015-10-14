@@ -60,6 +60,7 @@ input:checked ~ .radio {
   margin: 2% auto;
   margin-bottom: 19px;
   border: white 3px solid;
+  
 }
 
 #one, #two, #three {
